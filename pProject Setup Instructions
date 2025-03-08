@@ -1,0 +1,53 @@
+Project Setup Instructions
+
+To run this project, follow these steps:  
+
+1. Train the Model  
+   - The Jupyter Notebook (`.ipynb`) source file is uploaded. You must train the model using this file.  
+
+2. Create the Required Folders and Organize Files as Follows:  
+
+   - i Create a folder named `.idea`, then add the following files inside it:  
+     - All HTML files  
+     - IML file  
+     - Git source files  
+     - Inside `.idea`, create another folder named `inspectionProfile` and add an HTML file named `profile_setting`.  
+
+   - ii. Create a folder named `artifacts`, then add the following files:  
+     - All images (e.g., background images)  
+     - Class-related Python files (`.py`)  
+     - Confusion matrix and other related images  
+
+   - iii. After generating the trained model, create a folder named `model` and save the trained model file inside it with the name `model.h5`.  
+
+   - iv. (Optional) Create a folder named `notebook` and add:  
+     - Jupyter Notebook (`.ipynb`) files  
+     - Dataset files  
+
+   - v. Leave the `main.py` file outside all folders in the root directory.  
+
+---
+
+Project Structure Flowchart  
+
+```
+Project Root
+│── main.py
+│── .idea
+│   ├── All HTML files
+│   ├── IML file
+│   ├── Git source
+│   ├── inspectionProfile
+│   │   ├── profile_setting.html
+│── artifacts
+│   ├── Background images
+│   ├── Class Python files (.py)
+│   ├── Confusion matrix images
+│── model
+│   ├── model.h5
+│── notebook (optional)
+│   ├── Jupyter Notebook files (.ipynb)
+│   ├── Dataset files
+```
+
+
